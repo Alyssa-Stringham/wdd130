@@ -9,10 +9,6 @@ nav a {
     padding:20px;
 }
 
-{main
-    max-width: 840px;
-}
-
 h1 {
     color:rgb(122,137,184);
 }
@@ -25,6 +21,9 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
+{main
+    max-width: 840px;
+}
 p {padding:0;}
 
 aside{
