@@ -23,9 +23,35 @@ header, main, footer {
     margin:0 auto;
 }
 
+.hero{
+    position: relative;
+}
+
+
+.hero img{
+    display:block;
+    width: 100%;
+    height:auto;
+}
+
+.hero article img{
+    float:right;
+    width:125px;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h1{
+    position: absolute;
+    top:20px;
+    width:100%;
+    padding:16px;
+    text-align:center;
+    background-color:var(--accent-color1);
+    color:#fff;
 }
 
 nav, p, section, article {
@@ -35,4 +61,9 @@ nav, p, section, article {
 
 .socialmedia a{
     text-decoration:none;
+}
+
+.socialmedia img{
+    height:32px;
+    width:auto;
 }
