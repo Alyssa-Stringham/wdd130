@@ -9,9 +9,15 @@ body{
 }
 
 :root{
-    --nav-heading-color: rgb(122,137,184);
+    --nav-heading-color: #a5b3dc;
     --padding:2px;
     --border:1px solid rgba(0, 0, 0,0.3);
+    --text-color:#021840;
+}
+
+header,footer,main,aside,.grid{
+    max-width:840px;
+    margin:0 auto;
 }
 
 nav {
@@ -19,37 +25,53 @@ nav {
     padding:10px;
 }
 
+nav ul{
+    display:flex;
+    list-style:none;
+    justify-content:space-evenly;
+    align-items:center;
+    font-weight:16px;
+}
+
 nav a {
-    color:white;
+    color:var(--text-color);
     display:block;
     padding:20px;
+    text-decoration:none;
+    font-size:larger;
 }
 
 h1 {
-    color:var(--nav-heading-color);
+    color:var(--text-color);
     padding:.5rem;
+    margin:5px;
+    font-size:2rem;
+    border-bottom:1px solid var(--nav-heading-color);
 }
 
 main {
 max-width: 840px;
 }
+
 main img {
-    width: 150px;
-    height: auto;
+    width: 125px;
+    height:auto;
+    margin:10px 5px 5px 10px;
     border: var(--border);
-    padding: var(--padding);
+    padding:var(--padding);
     box-shadow: 0 0 30px gray;
     float:right;
     margin: 0,0,1rem,1rem;
 }
-
+main ul.box li{
+    margin-left:1rem;
+}
 p {
-    padding:0;
+    padding: 0rem;
     margin:1rem;
 }
 
-aside{
-    width:20em;  
+aside{ 
     text-align: center; 
     position: relative;
 }
@@ -61,8 +83,9 @@ aside img{
 
 aside h2 {
     position: absolute;
-    top:15px;
+    top:20px;
     left:135px;
+    font-size:1.5rem;
 }
 
 footer{
@@ -73,7 +96,7 @@ footer{
 
 /*Class Selectors*/
 .box{
-    margin:1rem;
+    margin:1rem 0rem;
     border: var(--border);
     padding: 15px;
     background-color:#eee;
@@ -83,3 +106,18 @@ footer{
 .indent{
     padding-left:30px;
 }
+
+.grid{
+    display:grid;
+    align-items: center;
+}
+    main{
+        grid-column: 2/3;
+        margin:1rem;
+    }
+    aside{
+        width:20rem;
+        position:relative;
+        grid-column:1/2;
+        grid-row:1/2;
+    }
