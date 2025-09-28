@@ -154,7 +154,6 @@ h1{
         width:auto;
     }
     figcaption{ 
-        text-align: center;
-        
+        text-align: center; 
     }
 }
