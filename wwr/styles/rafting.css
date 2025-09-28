@@ -142,18 +142,17 @@ h1{
 }
 
 .trips figure{
-    display:flex;
-    height:100px;
-    width:auto;
-    justify-content:space-between;
-    flex-direction:column;
-    flex-wrap:wrap;
+    display:grid;
+    height:150px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:100px 50px;
     img{
-        justify-content:space-evenly;
-        height:80px;
+        height:100px;
         width:auto;
+        grid-row:1/2;
     }
-    figcaption{ 
-        text-align: center; 
+    figcaption{
+        grid-row:2/3;
+        order:1;
     }
 }
