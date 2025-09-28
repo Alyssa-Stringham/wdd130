@@ -30,6 +30,7 @@ header{
 .navigation{
     display: flex;
     list-style:none;
+    justify-content:space-around;
 }
 
 .navigation li{
@@ -50,10 +51,35 @@ body{
 }
 
 .history{
-    display:flex;
-    
+    display:grid;
+    justify-content: center;
+    position:relative;
+    grid-template-columns:35% 30% 35%;
+    h2{
+        align-items:center;
+        grid-column:1/4;
+    }
+    img{
+        height:150px;
+        width:auto;
+        position:relative;
+        grid-column:2/4;
+        grid-row:2/4;
+        margin:20px 0;  
+    }
+    p1{
+        padding:10px;
+        position:relative;
+        grid-column:3/4;
+        grid-row:2/4;
+    }     
 }
 
+h2, footer {
+    display:flex;
+    justify-content:center;
+    margin:10px;
+}
 header, main, footer {
     width:840px;
     margin:0 auto;
@@ -76,6 +102,8 @@ nav, p, section, article {
 .socialmedia img{
     height:32px;
     width:auto;
+    float:right;
+    padding:5px;
 }
 
 .hero{
@@ -111,4 +139,22 @@ h1{
     float:right;
     width:125px;
     margin:10px;
+}
+
+.trips figure{
+    display:flex;
+    height:100px;
+    width:auto;
+    justify-content:space-between;
+    flex-direction:column;
+    flex-wrap:wrap;
+    img{
+        justify-content:space-evenly;
+        height:80px;
+        width:auto;
+    }
+    figcaption{ 
+        text-align: center;
+        
+    }
 }
