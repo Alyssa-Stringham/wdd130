@@ -63,7 +63,7 @@ body{
     place-self:center;
 }
 
-h2{
+.history h2{
     grid-column:span 3;
     padding:1px;
 }
@@ -134,18 +134,18 @@ h1{
 }
 
 
-figure{
+.trips figure{
     display: inline-block;
     justify-content: center;
-    align-content: flex-start;  
+    align-content: flex-start;
+    
 }
-
-figcaption{
+.trips figcaption{
         text-wrap: wrap;
         width:75px;
         padding:5px;
         }
-figure img{
+.trips figure img{
         height:125px;
         width:auto;
         padding:5px;  
