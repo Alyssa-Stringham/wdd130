@@ -51,27 +51,22 @@ body{
 }
 
 .history{
+    width:800px;
     display:grid;
-    justify-content: center;
-    position:relative;
-    grid-template-columns:35% 30% 35%;
+    justify-content: space-around;
+    grid-template-columns:repeat(1 1fr);
     h2{
-        align-items:center;
-        grid-column:1/4;
+        grid-column:span 3;
+        padding:1px;
     }
     img{
         height:150px;
         width:auto;
-        position:relative;
-        grid-column:2/4;
-        grid-row:2/4;
-        margin:20px 0;  
+        padding:20px 0;
+        order:1;
     }
     .p2{
-        padding:10px;
-        position:relative;
-        grid-column:3/4;
-        grid-row:2/4;
+        order:2;
     }     
 }
 
@@ -141,18 +136,21 @@ h1{
     margin:10px;
 }
 
-.trips figure{
-    display:grid;
-    height:150px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows:100px 50px;
+
+span {
+    display: inline-block;
+    justify-content: center;
+    align-content: flex-start;
     img{
-        height:100px;
+        height:125px;
         width:auto;
-        grid-row:1/2;
-    }
+        padding:5px;  
+        align-items: start;
+        }
     figcaption{
-        grid-row:2/3;
-        order:1;
-    }
+        text-wrap: wrap;
+        width:75px;
+        padding:5px;
+        }
 }
+
