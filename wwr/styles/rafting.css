@@ -55,7 +55,8 @@ body{
     display:grid;
     justify-content: space-around;
     grid-template-columns:1fr 1fr 1fr;
-}  
+} 
+
 .history img{
     height:150px;
     width:auto;
@@ -123,7 +124,7 @@ h1{
     top:420px;
     padding:5px;
     color:#fff;
-    background-color:var(--accent-color2) ;
+    background-color:var(--accent-color2);
 }
 
 .hero article img{
@@ -136,14 +137,14 @@ h1{
 figure{
     display: inline-block;
     justify-content: center;
-    align-content: flex-start;
-    figcaption{
+    align-content: flex-start;  
+}
+
+figcaption{
         text-wrap: wrap;
         width:75px;
         padding:5px;
         }
-}
-
 figure img{
         height:125px;
         width:auto;
