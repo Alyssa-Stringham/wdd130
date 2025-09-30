@@ -64,7 +64,6 @@ body{
         width:auto;
         place-self:center;
     }
-   
 }
 
 h2, footer {
@@ -134,7 +133,7 @@ h1{
 }
 
 
-figure {
+figure{
     display: inline-block;
     justify-content: center;
     align-content: flex-start;
