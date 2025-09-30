@@ -54,7 +54,7 @@ body{
     width:800px;
     display:grid;
     justify-content: space-around;
-    grid-template-columns:repeat(3 1fr);
+    grid-template-columns:1fr 1fr 1fr;
     h2{
         grid-column:span 3;
         padding:1px;
