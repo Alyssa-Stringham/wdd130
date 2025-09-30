@@ -55,17 +55,17 @@ body{
     display:grid;
     justify-content: space-around;
     grid-template-columns:1fr 1fr 1fr;
-    h2{
-        grid-column:span 3;
-        padding:1px;
-    }
-    img{
-        height:150px;
-        width:auto;
-        place-self:center;
-    }
+}  
+.history img{
+    height:150px;
+    width:auto;
+    place-self:center;
 }
 
+h2{
+    grid-column:span 3;
+    padding:1px;
+}
 h2, footer {
     display:flex;
     justify-content:center;
@@ -137,12 +137,6 @@ figure{
     display: inline-block;
     justify-content: center;
     align-content: flex-start;
-    img{
-        height:125px;
-        width:auto;
-        padding:5px;  
-        align-items: start;
-        }
     figcaption{
         text-wrap: wrap;
         width:75px;
@@ -150,3 +144,9 @@ figure{
         }
 }
 
+figure img{
+        height:125px;
+        width:auto;
+        padding:5px;  
+        align-items: start;
+        }
