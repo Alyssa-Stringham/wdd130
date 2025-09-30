@@ -102,7 +102,6 @@ nav, p, section, article {
     position: relative;
 }
 
-
 .hero img{
     display:block;
     width: 100%;
@@ -133,18 +132,18 @@ h1{
     margin:10px;
 }
 
-
 .trips figure{
     display: inline-block;
     justify-content: center;
     align-content: flex-start;
-    
 }
+
 .trips figcaption{
         text-wrap: wrap;
         width:75px;
         padding:5px;
         }
+
 .trips figure img{
         height:125px;
         width:auto;
