@@ -235,7 +235,6 @@ form{
     display:grid;
     color:var(--primary-color);
     font-family:var(--body-font);
-   
 }
 
 .form-item{
@@ -260,5 +259,4 @@ button{
     margin:5px auto;
     color:#fff;
     background-color:var(--primary-color);
-    /*could format more*/
 }
