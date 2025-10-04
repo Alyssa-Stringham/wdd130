@@ -1,0 +1,76 @@
+.employees{
+    position:relative;
+    top:50px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    width:840px;
+}
+
+.employees h2{
+    margin-top:30px;
+    grid-column:span 3;
+}
+
+.employees figcaption{
+    padding:5px;
+       
+}
+
+/*employees figure{
+    display:inline-block
+}*/
+
+.employees figure img{
+    height:auto;
+    width:100px;
+    padding:5px; 
+}
+
+
+
+.employees {
+    margin:40px 0;
+    text-align:center;
+
+}
+
+.employees h2{
+    background-color:var(--primary-color);
+    color:white;
+    padding:10px;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.employees figure{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.employees figure img{
+    height:auto;
+    width:100px;
+    padding:5px; 
+}
+
+
+.trips figure{
+    display:inline-block;
+    justify-content:center;
+    align-content:flex-start;
+}
+
+.trips figcaption{
+        text-wrap: wrap;
+        width:75px;
+        padding:5px;
+        }
+
+.trips figure img{
+        height:125px;
+        width:auto;
+        padding:5px;  
+        align-items: start;
+}
