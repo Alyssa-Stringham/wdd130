@@ -251,7 +251,6 @@ form{
 
 .column2{
     grid-template-columns:1fr 3fr;
-    align-items:right;
     height:75px;
 }
 
