@@ -320,13 +320,21 @@ button{
 
 /*Homepage*/
 
+.action1{
+    font-family:var(--body-font);
+    color:var(--primary-color);
+    margin:20px auto;
+    width:350px;
+    float:left;
+}
+
 .form2{
     display:grid;
     width:450px;
-    align-items:center;
+    margin:0 auto;
     color:var(--primary-color);
     background-color:rgb(240, 241, 243);
-    margin:20px auto;
+   
 }
 
 .grid_home{
