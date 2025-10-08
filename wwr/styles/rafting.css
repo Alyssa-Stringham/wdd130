@@ -326,7 +326,6 @@ button{
     color:var(--primary-color);
     background-color:rgb(240, 241, 243);
     margin:20px auto;
-    grid-template-columns:repeat(2 1fr)
 }
 
 .grid_home{
