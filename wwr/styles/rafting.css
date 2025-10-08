@@ -259,3 +259,100 @@ button{
     color:#fff;
     background-color:var(--primary-color);
 }
+
+/*Trips Page*/
+.trip_page{
+    display:flex;
+    box-sizing:border-box;
+}
+
+.trip_page h2{
+    display:flex;
+    font-family:var(--heading-font)
+}
+
+.trip_page img{
+    width:150px;
+    height:auto;
+}
+
+.trip_page p{
+    color:var(--primary-color);
+    font-family:var(--body-font);
+}
+
+.trip_option{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    max-width:250px;
+}
+
+.trip_table{
+    color:var(--primary-color);
+    display:flex;
+    justify-self:center;
+    width:80%;
+}
+
+.trip_table th{
+    width:150px;
+    margin:10px;
+    padding:2px;
+    border-bottom:1px solid var(--primary-color);
+}
+
+.trip_table td{
+    text-align:center;
+    padding:5px;
+}
+
+.action{
+    font-family:var(--body-font);
+    color:var(--primary-color);
+}
+
+.action a{
+    font-family:var(--body-font);
+    color:var(--primary-color);
+}
+
+/*Homepage*/
+
+.form2{
+    display:grid;
+    width:450px;
+    align-items:center;
+    color:var(--primary-color);
+    background-color:rgb(240, 241, 243);
+    margin:20px auto;
+    grid-template-columns:repeat(2 1fr)
+}
+
+.grid_home{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    width:840px;
+    display:inline-block;
+    justify-content:center;
+    justify-items:center;
+    color:var(--primary-color);
+}
+.grid_home p{
+        margin:0 auto;
+        grid-column:span 2;
+}
+
+.grid_home figure{
+    display:grid;
+    display:inline-block;
+
+}
+.grid_home img{
+    padding:10px;
+    width:300px;
+}
+
+.grid_home figcaption{
+    margin-left: 100px;
+}
