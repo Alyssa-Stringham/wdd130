@@ -2,7 +2,7 @@
     --primary-color: rgb(8, 8, 96);
     --secondary-color: rgb(174, 174, 188);
     --accent-color1: rgb(39, 123, 220);
-    --accent-color2: #956767bc;
+    --accent-color2: rgb(139,69,19);
     --heading-font:'Times New Roman', Times, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -121,7 +121,7 @@ h1{
     width:100%;
     padding:16px;
     text-align:center;
-    background-color:var(--accent-color1);
+    background-color:var(--primary-color);
     color:#fff;
 }
 
