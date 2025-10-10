@@ -262,48 +262,48 @@ button{
 }
 
 /*Trips Page*/
-.trip_page{
+.trip-page{
     display:flex;
     box-sizing:border-box;
 }
 
-.trip_page h2{
+.trip-page h2{
     display:flex;
     font-family:var(--heading-font)
 }
 
-.trip_page img{
+.trip-page img{
     width:150px;
     height:auto;
 }
 
-.trip_page p{
+.trip-page p{
     color:var(--primary-color);
     font-family:var(--body-font);
 }
 
-.trip_option{
+.trip-option{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
     max-width:250px;
 }
 
-.trip_table{
+.trip-table{
     color:var(--primary-color);
     display:flex;
     justify-self:center;
     width:80%;
 }
 
-.trip_table th{
+.trip-table th{
     width:150px;
     margin:10px;
     padding:2px;
     border-bottom:1px solid var(--primary-color);
 }
 
-.trip_table td{
+.trip-table td{
     text-align:center;
     padding:5px;
 }
@@ -337,7 +337,7 @@ button{
    
 }
 
-.grid_home{
+.grid-home{
     display:grid;
     grid-template-columns:1fr 1fr;
     width:840px;
@@ -346,21 +346,21 @@ button{
     justify-items:center;
     color:var(--primary-color);
 }
-.grid_home p{
+.grid-home p{
         margin:0 auto;
         grid-column:span 2;
 }
 
-.grid_home figure{
+.grid-home figure{
     display:grid;
     display:inline-block;
 
 }
-.grid_home img{
+.grid-home img{
     padding:10px;
     width:300px;
 }
 
-.grid_home figcaption{
+.grid-home figcaption{
     margin-left: 100px;
 }
